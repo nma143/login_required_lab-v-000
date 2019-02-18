@@ -7,8 +7,8 @@ class SessionsController < ApplicationController
     if !params[:name] || params[:name].empty?
       redirect_to controller: 'sessions', action: 'new'
     else
-      
+
     end
   end
-  
+
 end
