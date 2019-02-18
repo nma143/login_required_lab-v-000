@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
 
   def current_user
 
-    session[:user] || []
+    session[:user]
 
   end
 
