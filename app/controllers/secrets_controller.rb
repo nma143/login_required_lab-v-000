@@ -3,6 +3,7 @@ class SecretsController < ApplicationController
   end
 
   def show
-    en
-  
+    
+  end
+
 end
